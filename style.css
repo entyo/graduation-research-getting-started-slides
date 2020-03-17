@@ -1,0 +1,28 @@
+html {
+  /* set the base font-size */
+  font-size: 62.5%;
+}
+
+/* code blocks */
+code[class*='language-'],
+pre[class*='language-'] {
+  font-size: 2rem;
+}
+
+.centered {
+  vertical-align: middle;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0.5em;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.list-with-nice-margin li {
+  margin-top: 0.5em;
+  line-height: 1.2em;
+}

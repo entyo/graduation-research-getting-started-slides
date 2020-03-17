@@ -1,0 +1,22 @@
+meta:
+  title: 卒業研究 プレ着手発表
+  thumbnail: https://pbs.twimg.com/profile_images/1192246340845092864/T3Th9swg_400x400.png
+  description: 3/24の合同勉強会用の発表資料
+slide:
+  loop: false
+  sidebar: true
+  targetBlank: true
+  showIndex: true
+  isVertical: false
+  code:
+    languages:
+      - javascript
+    plugins: []
+  chart: false
+  math: false
+extends:
+  js:
+  css: ./style.css
+  webpack:
+build:
+  ssr: true
