@@ -1,19 +1,27 @@
 <div>
-  <h1>モチベーション - Twitterに新しい解析対象</h1>
-  <div>
-    <ul style={{
+  <h1>Related Works</h1>
+  <div style={{
+    display: "flex",
+    justifyContent: "center"
+  }} >
+    <ol style={{
       fontSize: 38,
-      marginTop: 40,
-      width: 1000
+      marginTop: 40
     }} className="list-with-nice-margin centered" >
       <li>
-        テキストはキャプションとして画像下部に表示
+        Twitterのプロフィールに設定するテーマカラーの傾向は男女間で異なる(Scott. 2011)[2]
+      </li>
+      <li>
+        Twitterユーザがプロフィールページの背景、テキスト、リンクなど五箇所に設定した色から、<br/>性別を自動分類するタスクを検証(Jalal et al. 2013)[3]
+      </li>
+      <li>
+        Twitterユーザの性別分類タスクにおいて、有用かつ言語非依存な素性を調査(Nikola et al. 2017)[4]
       </li>
       <li style={{
         listStyleType: "none"
       }} >
-        ➡️ <b>このキャプションの背景色は新しい変数(解析対象)</b>
+        ➡️ <b>いずれの研究でもキャプション背景色は扱われていない。素性として組み込むことで精度向上？</b>
       </li>
-    </ul>
+    </ol>
   </div>
 </div>
