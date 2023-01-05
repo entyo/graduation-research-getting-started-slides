@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "fusuma": "^1.16.0"
+    "fusuma": "^2.8.4"
   }
 }
